@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+	<title>ir-svg</title>
+	<style>
+		.s0 { fill: #da0000 } 
+		.s1 { fill: #ffffff } 
+		.s2 { fill: #239f40 } 
+	</style>
+	<path class="s0" d="m1200 0v600h-1200v-600z"/>
+	<path class="s1" d="m1200 0v400h-1200v-400z"/>
+	<path class="s2" d="m1200 0v200h-1200v-200z"/>
+</svg>

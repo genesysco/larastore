@@ -1,0 +1,38 @@
+.category-card {
+    transition: all 0.3s ease;
+    transform-style: preserve-3d;
+}
+.category-card:hover {
+    transform: translateY(-10px) rotateY(10deg);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.subcategory {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+.category-card:hover .subcategory {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.dark .hero-slide {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* Indent nested lists */
+.collapse.list-unstyled.ms-3 {
+  padding-left: 1rem;
+}
+
+/* Optional: Add arrows for collapsible items */
+.btn-link::after {
+  content: " ▾";
+  float: right;
+  transition: transform 0.3s ease;
+}
+.btn-link.collapsed::after {
+  content: " ▸";
+}
